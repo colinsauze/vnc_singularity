@@ -12,7 +12,7 @@ From:ubuntu:18.04
     
 %post  
     apt-get update
-    apt-get -y install vnc4server
+    apt-get -y install vnc4server jwm
     apt-get update
 
 %runscript
